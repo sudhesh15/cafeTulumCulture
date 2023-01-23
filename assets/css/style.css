@@ -3,6 +3,16 @@ body {
   color: #444444;
 }
 
+@media only screen and (max-width: 600px) {
+  .mainLogo{
+    width: 25%;
+    height: 25%;
+  }
+  .mainHeading{
+    margin-top: 10% !important;
+  }
+}
+
 a {
   text-decoration: none;
   color: #e4a95f;
