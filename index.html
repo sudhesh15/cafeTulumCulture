@@ -45,7 +45,7 @@
   }
   </style>
   <script>
-    function showsoup(){
+    function showItem(){
       var y = document.getElementsByClassName("menu-container");
       if (y[0].style.display == "none") {
         y[0].style.display = "block";
@@ -164,19 +164,19 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="menu-flters">
               <li data-filter="*" class="filter-active" style="display:none">Show All</li>
-              <li data-filter=".filter-soups" class="soup" onclick="showsoup()">Soups</li>
-              <li data-filter=".filter-starters">Non Veg Starters</li>
-              <li data-filter=".filter-vegstarters">Veg Starters</li>
-              <li data-filter=".filter-pasta">Pasta</li>
-              <li data-filter=".filter-salads">Salads</li>
-              <li data-filter=".filter-pizza">Pizza</li>
-              <li data-filter=".filter-burger">Burger</li>
-              <li data-filter=".filter-sandwich">Sandwich</li>
-              <li data-filter=".filter-riceNoodles">Rice & Noodles</li>
-              <li data-filter=".filter-sizzlers">Sizzlers</li>
-              <li data-filter=".filter-allDayBreakfast">All Day Breakfast</li>
-              <li data-filter=".filter-bigBreakfast">Big Breakfast</li>
-              <li data-filter=".filter-dessert">Desert</li>
+              <li data-filter=".filter-soups" class="soup" onclick="showItem()">Soups</li>
+              <li data-filter=".filter-starters" onclick="showItem()">Non Veg Starters</li>
+              <li data-filter=".filter-vegstarters" onclick="showItem()">Veg Starters</li>
+              <li data-filter=".filter-pasta" onclick="showItem()">Pasta</li>
+              <li data-filter=".filter-salads" onclick="showItem()">Salads</li>
+              <li data-filter=".filter-pizza" onclick="showItem()">Pizza</li>
+              <li data-filter=".filter-burger" onclick="showItem()">Burger</li>
+              <li data-filter=".filter-sandwich" onclick="showItem()">Sandwich</li>
+              <li data-filter=".filter-riceNoodles" onclick="showItem()">Rice & Noodles</li>
+              <li data-filter=".filter-sizzlers" onclick="showItem()">Sizzlers</li>
+              <li data-filter=".filter-allDayBreakfast" onclick="showItem()">All Day Breakfast</li>
+              <li data-filter=".filter-bigBreakfast" onclick="showItem()">Big Breakfast</li>
+              <li data-filter=".filter-dessert" onclick="showItem()">Desert</li>
             </ul>
           </div>
         </div>
